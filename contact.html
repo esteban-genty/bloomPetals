@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+
+</head>
+
+    <!--En tête de page-->
+    <header>
+        <nav class="nav">
+            <div class="nav-left">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./entreprise.html">Entreprise</a></li>
+                    <li><a href="./realisation.html">Réalisations</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+        </div>
+            <div class="nav-right">
+                <ul>
+                    <input type="search">
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+  
+
+  <body>
+
+    <div class="txt"><h1>Contact :</h1></div>
+    
+<!--Formulaire Contact-->
+<div class="form-contact">
+    <form action="#" method="post"> 
+
+        <!--Champ Civilité-->
+        <label for="civilite">Civilité : </label>
+            <select name="civilite">
+                <option value="Monsieur">Monsieur</option>
+                <option value="Madame">Madame</option>
+            </select>
+
+            <!--Input Nom & Prénom-->
+        <label for="name">Nom & Prénom</label>
+        <input type="text" name="name"/>
+
+        <!--Champ Adresse-->
+        <label for="adress">Adresse Postale</label>
+        <input type="text" name="adress"/>
+
+        <!--Champ Code Postale-->
+        <label for="zip">Code Postale</label>
+        <input type="text" name="zip"/> 
+        
+        <!--Champ Ville-->
+        <label for="ville">Ville</label>
+        <input type="text" name="ville"/>
+
+        <!--Champ Validité Politique-->
+        <input type="checkbox" name="tos" required="required"/>
+        <label for="tos">J'ai lu : Politique de Confnameentialité</label>
+
+        <input type="submit" name="valid" value="Envoyer"/>
+
+    </form>
+
+</div>
+
+
+
+
+  </body>
+
+  <footer></footer>
+  </html>

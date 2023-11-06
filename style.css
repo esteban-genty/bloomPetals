@@ -1,0 +1,265 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+nav {
+    margin: auto;
+    background: rgb(143, 151, 157);
+    padding: 15px;
+    height: 35px;
+    
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav a {
+    width: 60px;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-left ul li {
+    float: left;
+    margin-top: 7px;
+}
+
+.nav-right ul input {
+    float: right;
+    margin-top: 7px;   
+}
+
+.nav-right input {
+    display: flex;
+    border-radius: 10px;
+    
+  }
+
+.nav-left a {
+    color: black;
+    text-decoration: none;
+    margin-left: 35px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+/*Titre*/
+.txt{
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.txt h1{
+    margin: 25px;
+    color: black;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+}
+
+.txt p{
+    font-family: 'roboto', sans-serif;
+    color: rgb(80, 80, 80);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.divider hr {
+    margin-top: 60px;
+    border-top: 2px solid #9a9a9a;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 30px;
+  }
+
+
+
+/*Flex Box*/
+.flex-img {
+    margin: 50px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 250px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  
+  .flex-img img {
+    margin-left: 100px;
+    width: 200px;
+    height: auto;
+    box-shadow: 0px 5px  5px rgb(130, 130, 130);
+    border: 2px solid rgb(121, 121, 121)
+  }
+
+  .flex-txt {
+    color: #4a4a4a;
+    display: flex;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-bottom: 90px;
+  }
+  
+  .flex-txt h1,h2,h3{
+    color: black;
+    font-size: 18px;
+  }
+ 
+
+  .flex-txt div {
+    font-family: 'roboto', sans-serif;
+    margin-right: 30px;
+  }
+
+
+
+  /*Entreprise.html*/
+
+  .flex-img-entreprise{
+    margin: 50px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .flex-img-entreprise img{
+      width: 150px;
+      height: auto;
+      margin-left: 30px;
+      margin-bottom: 30px;
+    }
+
+    .entreprise-txt p{
+      display: flex;
+      text-align: center;
+      font-family: 'roboto', sans-serif;
+      color: rgb(80, 80, 80);
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-bottom: 50px;
+  }
+
+
+/*Réalisation.html*/
+.image-mosaic{
+  margin-left: 80px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.image-mosaic img{
+  box-shadow: 0px 5px  5px rgb(130, 130, 130);
+  margin-left: 20px;
+  width: 20%;
+  margin-bottom: 30px;
+  height: auto;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /*Contact.html*/
+
+    label{
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+    font-size: 17px;
+  }
+
+    .form-contact {
+      /* Ajouter box-sizing */
+      box-sizing : border-box;
+      border-radius:5px;
+      padding:10px;
+      width: 100%;
+      font-family: 'roboto', sans-serif;
+      max-width: 440px;
+      margin:0 auto;
+    }
+
+    .form-contact select{
+      color: black;
+      box-sizing : border-box;
+      border-radius:5px;
+      padding:10px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+  .form-contact h1{
+    color: black;
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    width: 100%;
+    font-size: 45px;
+  }
+
+  input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    resize: vertical;
+  }
+
+
+  input[type=submit] {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #87314b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding:5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+  }
+
+  input[type=submit]:hover {
+    background-color: #ffffff;
+    color: #87314b;
+    border: solid 2px #87314b;
+  }
+
+  footer{
+    background: rgb(143, 151, 157);
+    height: 60px;
+  }
